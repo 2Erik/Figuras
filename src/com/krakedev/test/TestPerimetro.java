@@ -1,7 +1,6 @@
 package com.krakedev.test;
 
 import com.krakedev.figuras.Cuadrado;
-import com.krakedev.figuras.Figura;
 import com.krakedev.figuras.Graficador;
 import com.krakedev.figuras.Rectangulo;
 import com.krakedev.figuras.TrianguloRectangulo;
@@ -22,10 +21,6 @@ public class TestPerimetro {
 		System.out.println("Perimetro cuadrado: "+rectangulo.calcularPerimetro());
 		graficador.graficador(rectangulo);
 		
-		System.out.println("FIGURA");
-		Figura figura = new Figura("Sin nombre", "Verde");
-		figura.calcularPerimetro();
-		System.out.println("Perimetro cuadrado: "+figura.calcularPerimetro());
 		
 		System.out.println("TR");
 		TrianguloRectangulo tr = new TrianguloRectangulo("TR", "Amarillo", 5, 4);
