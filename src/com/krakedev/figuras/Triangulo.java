@@ -8,13 +8,11 @@ public class Triangulo extends Figura {
 
 	@Override
 	public int calcularPerimetro() {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
 	public double calculoArea() {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 }
