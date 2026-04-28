@@ -4,6 +4,7 @@ import com.krakedev.figuras.Cuadrado;
 import com.krakedev.figuras.Figura;
 import com.krakedev.figuras.Graficador;
 import com.krakedev.figuras.Rectangulo;
+import com.krakedev.figuras.TrianguloRectangulo;
 
 public class TestPerimetro {
 
@@ -25,6 +26,15 @@ public class TestPerimetro {
 		Figura figura = new Figura("Sin nombre", "Verde");
 		figura.calcularPerimetro();
 		System.out.println("Perimetro cuadrado: "+figura.calcularPerimetro());
+		
+		System.out.println("TR");
+		TrianguloRectangulo tr = new TrianguloRectangulo("TR", "Amarillo", 5, 4);
+		System.out.println("Perimetro: "+tr.calcularPerimetro());
+		System.out.println("Area; "+tr.calculoArea());
+		graficador.graficador(tr);
+		
+		
+		
 		
 	}
 
